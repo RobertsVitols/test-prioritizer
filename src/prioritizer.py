@@ -1,4 +1,4 @@
-import json, os
+import json
 
 def get_prioritized_tests(changed_lines: dict, coverage_path: str) -> list:
     # Nolasa coverage.json failu
